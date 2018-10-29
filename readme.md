@@ -1,5 +1,5 @@
 # python 爬虫
-author: [zhangxuan](github.com/ruoxianbaby)
+author: [zhangxuan](https://github.com/ruoxianbaby)
 
 ## run
 ```bash

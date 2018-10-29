@@ -15,7 +15,7 @@ class Db:
         if config:
             db = pymysql.connect(db_config['host'], db_config['username'], db_config['passwd'], db_config['dbname'], db_config['port'])
         else:
-            db = pymysql.connect("127.0.0.1", "root", "", "my_data", 3307)
+            db = pymysql.connect("127.0.0.1", "root", "", "my_data", 3306)
         self.db = db.cursor()
 
     def query(self, sql):

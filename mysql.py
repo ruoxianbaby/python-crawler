@@ -24,3 +24,4 @@ class Db:
 
     def __del__(self):
         self.db.close()
+        
